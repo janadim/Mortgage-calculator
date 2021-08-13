@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stylesheets/main.css" />
+    <title>Mortgage Calculator</title>
+</head>
+<body>
+    <main> 
+        <h1>Mortgage Calculator</h1>
+        <form action="#" class="form js-form">
+          <label for="salary">Annual gross income<input class="field js-salary" type="number" min="0" name="salary" id="salary" placeholder="Annual gross income" value="" required></label>
+          <label for="value">Total value of the house<input class="field js-value" type="number" min="0" name="value" id="value" placeholder="Total value of the house" value="" required></label>
+          <label for="savings">Down payment<input class="field js-savings" type="number" min="0" name="savings" id="savings" placeholder="Savings" value="" required></label>
+          <fieldset>
+            <legend >Mark the type of interest:</legend>
+            <label for="10y" class="radio"><input class="js-10-years" type="radio" name="years" id="10y" placeholder="Annual gross income" value="" required>10 Years (1.25% interest)</label>
+            <label for="20y" class="radio"><input class="js-20-years" type="radio" name="years" id="20y" placeholder="Annual gross income" value="">20 Years (1.5% interest)</label>
+            <label for="30y" class="radio"><input class="js-30-years" type="radio" name="years" id="30y" placeholder="Annual gross income" value="">30 Years (1.6% interest)</label>
+          </fieldset>
+          <input type="submit" value="Send info" />
+          <input type="reset" value="clean" />
+        </form>
+        
+      </main>
+    <script type= "text/javascript" src="../js/main.js"></script>
+</body>
+</html>
