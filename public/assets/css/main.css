@@ -9,12 +9,15 @@
   border: 2px solid black; }
   .main__form {
     display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: flex-start; }
+    flex-direction: column; }
     .main__form--field {
-      display: block; }
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 2%;
+      width: 60%; }
     .main__form--radio {
       display: block; }
+    .main__form--submit {
+      margin-bottom: 2%; }
 
 /*# sourceMappingURL=main.css.map */

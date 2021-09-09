@@ -41,3 +41,6 @@ function handleClickSubmitButton() {
 }
 
 submitButton.addEventListener("click", handleClickSubmitButton);
+
+
+Aparece una casilla con el coste fijo mensual que sera igual a: (La cantidad pedida/[numero de anos de plazo*12meses])
